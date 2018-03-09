@@ -1,8 +1,39 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+header h1 {
+    text-align : center;
+    padding-top: 60px;
+    font-family: 'Courier', monospace;
+    color: DeepSkyBlue;
+    margin: 0px;
+    font-size: 90px;
 }
 
-a {
-  color: #00B7FF;
+h3{
+    text-align : center;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    padding-top: 40px;
+}
+
+.subtitle {
+    text-align : center;
+    font-family: 'Brush Script Std', cursive;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+hr.style3 {
+    border-top: 1px dashed #8c8b8b;
 }
